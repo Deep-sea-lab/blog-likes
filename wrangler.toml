@@ -1,0 +1,15 @@
+name = "blog-likes"
+account_id = "57e18b4fb317b217ebf8b0f74415ab9e"
+compatibility_date = "2025-04-01"
+main = "src/index.js"
+workers_dev = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "blog-likes"
+database_id = "0e422d74-64e6-472d-82f0-9e4b23769f5c"
+
+[observability.logs]
+enabled = true
+
+
